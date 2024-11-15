@@ -1,0 +1,43 @@
+.logo {
+  width: 220px !important;
+}
+.laptop-mockup {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.laptop-mockup img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+}
+.space_between_rows {
+  margin-top: 200px;
+}
+
+@media (max-width: 768px) {
+  .project-content {
+    margin-top: 2rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+  }
+}
